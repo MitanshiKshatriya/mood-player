@@ -73,7 +73,6 @@ def writesome(pred):
     print(pred)
 
     
-
 if __name__ == '__main__':
     model = FacialExpressionModel("model.json", "weights.h5")
     start_app(model)
